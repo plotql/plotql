@@ -1,0 +1,31 @@
+{
+  "name": "plotql",
+  "version": "1.0.0",
+  "description": "query utility for mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MechETechE/plotql.git"
+  },
+  "keywords": [
+    "query",
+    "mutate",
+    "nosql",
+    "sql"
+  ],
+  "author": "Daniel OQuinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MechETechE/plotql/issues"
+  },
+  "homepage": "https://github.com/MechETechE/plotql#readme",
+  "dependencies": {
+    "exec": "^0.2.1",
+    "kue": "^0.11.5",
+    "say.js": "^1.2.0",
+    "socket.io": "^1.7.3"
+  }
+}
