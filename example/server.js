@@ -3,7 +3,7 @@
 var fs = require('fs');
 var path = require('path');
 var http = require('http');
-var plotql = require('../index.js').mongo;
+var plotql = require('plotql');
 
 var staticBasePath = './public';
 
