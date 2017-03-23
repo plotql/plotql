@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MechETechE/plotql.git"
+    "url": "git+https://github.com/plotql/plotql.git"
   },
   "keywords": [
     "query",
@@ -16,9 +16,9 @@
   "author": "Daniel OQuinn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MechETechE/plotql/issues"
+    "url": "https://github.com/plotql/plotql/issues"
   },
-  "homepage": "https://github.com/MechETechE/plotql#readme",
+  "homepage": "https://github.com/plotql/plotql#readme",
   "dependencies": {
     "plotql": "file:../."
   }

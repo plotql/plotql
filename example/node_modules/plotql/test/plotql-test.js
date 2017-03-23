@@ -17,4 +17,4 @@ assert.doesNotThrow(
 
 var truthy = true
 
-assert.equal(plotql, 'initialized');
+assert.equal(plotql.use(), 'initialized');
