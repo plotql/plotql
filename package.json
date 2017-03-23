@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/plotql/plotql#readme",
   "dependencies": {
-    "engine.io": "git+https://github.com/plotql/plotql/lib/arctic_modules/engine.io",
-    "engine.io-client": "git+https://github.com/plotql/plotql/lib/arctic_modules/engine.io-client",
+    "engine.io": "file:./lib/arctic_modules/engine.io",
+    "engine.io-client": "file:./lib/arctic_modules/engine.io-client",
     "exec": "^0.2.1",
     "kue": "^0.11.5",
     "say.js": "^1.2.0",
-    "socket.io": "git+https://github.com/plotql/plotql/lib/arctic_modules/socket.io",
-    "socket.io-adapter": "git+https://github.com/plotql/plotql/lib/arctic_modules/socket.io-adapter",
-    "socket.io-client": "git+https://github.com/plotql/plotql/lib/arctic_modules/socket.io-client"
+    "socket.io": "file:./lib/arctic_modules/socket.io",
+    "socket.io-adapter": "file:./lib/arctic_modules/socket.io-adapter",
+    "socket.io-client": "file:./lib/arctic_modules/socket.io-client"
   }
 }
