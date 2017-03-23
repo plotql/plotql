@@ -4,11 +4,11 @@
   "description": "query utility for mongodb",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node test/plotql-test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MechETechE/plotql.git"
+    "url": "git+https://github.com/plotql/plotql.git"
   },
   "keywords": [
     "query",
@@ -19,9 +19,9 @@
   "author": "Daniel OQuinn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MechETechE/plotql/issues"
+    "url": "https://github.com/plotql/plotql/issues"
   },
-  "homepage": "https://github.com/MechETechE/plotql#readme",
+  "homepage": "https://github.com/plotql/plotql#readme",
   "dependencies": {
     "engine.io": "file:lib/arctic_modules/engine.io",
     "engine.io-client": "file:lib/arctic_modules/engine.io-client",

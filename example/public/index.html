@@ -15,8 +15,9 @@
   });
 
   document.getElementById("sender").addEventListener("click",function(e){
-    console.log("[EMITTING]")
-    socket.emit('query', { data: document.getElementById('message').value });
+    console.log("[EMITTING]", e.target)
+    let query = document.getElementById("message").value
+    socket.emit('query', { data: { query: query, callback: { channel: 'CREATE_USER', data: 'your message' } } } );
   },false);
 
 </script>

@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "say.js",
+        "scope": null,
+        "escapedName": "say.js",
+        "name": "say.js",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/danieloquinn/package_development/plotql"
+    ]
+  ],
+  "_from": "say.js@latest",
+  "_id": "say.js@1.2.0",
+  "_inCache": true,
+  "_location": "/say.js",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/say.js-1.2.0.tgz_1488348641766_0.8094180189073086"
+  },
+  "_npmUser": {
+    "name": "djoq",
+    "email": "Danny@sbo.tech"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "say.js",
+    "scope": null,
+    "escapedName": "say.js",
+    "name": "say.js",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/say.js/-/say.js-1.2.0.tgz",
+  "_shasum": "f17853420fb7c055354bb4d1170c7cbb754d3c8b",
+  "_shrinkwrap": null,
+  "_spec": "say.js",
+  "_where": "/Users/danieloquinn/package_development/plotql",
+  "author": {
+    "name": "daniel oquinn"
+  },
+  "bugs": {
+    "url": "https://github.com/djoq/say.js/issues"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "util": "^0.10.3"
+  },
+  "description": "simple logging utility",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f17853420fb7c055354bb4d1170c7cbb754d3c8b",
+    "tarball": "https://registry.npmjs.org/say.js/-/say.js-1.2.0.tgz"
+  },
+  "gitHead": "e97da86d8cfd4f076648a101a4004c9813ae08ee",
+  "homepage": "https://github.com/djoq/say.js#readme",
+  "keywords": [
+    "logger",
+    "logging",
+    "logs",
+    "logfile"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "djoq",
+      "email": "Danny@sbo.tech"
+    }
+  ],
+  "name": "say.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djoq/say.js.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.2.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "plotql-example",
+  "version": "1.0.0",
+  "description": "query utility for mongodb",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MechETechE/plotql.git"
+  },
+  "keywords": [
+    "query",
+    "mutate",
+    "nosql",
+    "sql"
+  ],
+  "author": "Daniel OQuinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MechETechE/plotql/issues"
+  },
+  "homepage": "https://github.com/MechETechE/plotql#readme",
+  "dependencies": {
+    "plotql": "file:../."
+  }
+}
