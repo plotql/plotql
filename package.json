@@ -4,7 +4,8 @@
   "description": "query utility for mongodb",
   "main": "index.js",
   "scripts": {
-    "test": "node test/plotql-test.js"
+    "install": "node scripts/pre-install.js",
+    "test": "node test/plotql-test.sh"
   },
   "repository": {
     "type": "git",
