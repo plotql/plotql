@@ -1,2 +1,0 @@
-use test
-db.users.find()
