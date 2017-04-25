@@ -24,4 +24,4 @@ Plotql will emit the event back specified by the callback to the client or where
 
 Motiviation:
 
-Get data back to the client in an efficient manner, abstract the connection maintenance away from development.
+Get data back to the client in an efficient manner, abstract the connection maintenance from the developer.
