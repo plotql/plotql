@@ -17,7 +17,7 @@ io.emit('query', { data:
   { query: 'db.users.find()',
     callback: { 
       channel: 'CREATE_USER',
-      data: 'your message' 
+      data: 'Query completed, push state or perform action' 
     }
   } 
 
