@@ -14,10 +14,10 @@ use socket.io-client to emit to the `query` channel. It accepts 2 arguments, the
 ````
 io.emit('query', { data: 
 
-  { query: 'db.users.find()',
-    callback: { 
-      channel: 'CREATE_USER',
-      data: 'Query completed, push state or perform action' 
+  { "query": "db.users.find()",
+    "callback": { 
+      "channel": "CREATE_USER",
+      "data": "Query completed, push state or perform action" 
     }
   } 
 
