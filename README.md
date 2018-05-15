@@ -7,12 +7,15 @@ Include the following in your package.json
 `  "plotql": "git+https://github.com/plotql/plotql" `
 then you can run `npm install`
 
+### Usage
+
 `var plotql = require('plotql')`
 
-then, we tell it to use our server and which database to consume.
+next, we tell it to use our server and which database to consume.
 
 `plotql.use(server,db)`
 
+This handles all the socket configuration on the server, so you don't need to setup socket.io on node.
 
 use socket.io-client to emit to the `query` channel. It accepts 2 arguments, the query and a callback. Paste the inner data object into the example server to see how it works. 
 
