@@ -1,6 +1,11 @@
 How to use:
 
-Redis must be installed and running, mongodb as well.
+A connection to a running mongo db instance is mandatory. 
+
+### Installing
+Include the following in your package.json
+`  "plotql": "git+https://github.com/plotql/plotql" `
+then you can run `npm install`
 
 `var plotql = require('plotql')`
 
