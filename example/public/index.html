@@ -23,7 +23,7 @@
   document.getElementById("sender").addEventListener("click",function(e){
     console.log("[EMITTING]", e.target)
     let query = JSON.parse(document.getElementById("message").value)
-    socket.emit('query', { data: { query: query, callback: { channel: 'CREATE_USER', data: 'broadcasts state!' } } } );
+    socket.emit('query', { data: { query: query.query, callback: { channel: 'CREATE_USER', data: 'broadcasts state!' } } } );
   },false);
 
 </script>
