@@ -34,7 +34,7 @@ httpServer.listen(6377, function(){
 
 
 /* Establish db connection to pass to PlotQL, any collections being mutated or read need be declared here */
-let db = pmongo('/chain', {
+let db = pmongo('localhost/chain', {
   authMechanism: 'ScramSHA1'
 }, ['users', 'blocks']);
 
@@ -43,7 +43,5 @@ let db = pmongo('/chain', {
    PlotQL will fail, the server code shall be responsible for restarting in such cases */
 plotql.use(httpServer, db.chain.db)
 
-
-plotql.use(httpServer, db)
 
 module.exports = httpServer
