@@ -26,7 +26,6 @@
   "dependencies": {
     "promised-mongo": "^1.2.0",
     "say.js": "^1.2.0",
-    "engine.io-client": "file:./lib/arctic_modules/engine.io-client",
     "socket.io": "file:./lib/arctic_modules/socket.io",
     "socket.io-client": "file:./lib/arctic_modules/socket.io-client"
   }
