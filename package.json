@@ -1,6 +1,6 @@
 {
   "name": "plotql",
-  "version": "1.0.4",
+  "version": "2.1.0",
   "description": "query utility for mongodb",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,8 @@
   "dependencies": {
     "promised-mongo": "^1.2.0",
     "say.js": "^1.2.0",
-    "socket.io": "^1.4",
-    "socket.io-client": "^1.4"
+    "engine.io-client": "file:./lib/arctic_modules/engine.io-client",
+    "socket.io": "file:./lib/arctic_modules/socket.io",
+    "socket.io-client": "file:./lib/arctic_modules/socket.io-client"
   }
 }
