@@ -16,14 +16,14 @@
 <script src="socket.io/socket.io.js"></script>
 <script>
   var socket = io(window.location.host);
-  socket.on('chat', function (data) {
+  socket.on('CREATE_USER', function (data) {
     document.getElementById("tbr").innerHTML = JSON.stringify(data)
   });
 
   document.getElementById("sender").addEventListener("click",function(e){
     console.log("[EMITTING]", e.target)
-    let query = document.getElementById("message").value
-    socket.emit('query', { data: { query: query, callback: { channel: 'CREATE_USER', data: 'your message' } } } );
+    let query = JSON.parse(document.getElementById("message").value)
+    socket.emit('query', { data: { query: query, callback: { channel: 'CREATE_USER', data: 'broadcasts state!' } } } );
   },false);
 
 </script>

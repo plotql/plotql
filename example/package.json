@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/plotql/plotql#readme",
   "dependencies": {
-    "plotql": "file:../."
+    "plotql": "file:../.",
+    "promised-mongo": "git+https://github.com/mindeavor/promised-mongo"
   }
 }
