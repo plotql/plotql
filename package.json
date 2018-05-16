@@ -1,6 +1,6 @@
 {
   "name": "plotql",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "query utility for mongodb",
   "main": "index.js",
   "scripts": {
